@@ -36,7 +36,7 @@
                 <configuration>
                      <imageName>springimage</imageName>
                         <!--<repository>${docker.image.prefix}/${project.artifactId}</repository> -->
-                    <repository>mohamedramadan7/spring1</repository>
+                    <repository>mohamedramadan7/springdockermodel</repository>
                 </configuration>
             </plugin>
             <!-- end::plugin[] -->
