@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>gs-spring-boot-docker</artifactId>
+    <artifactId>springdockermodel</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
     <name>Spring Boot Docker</name>
@@ -18,7 +18,7 @@
     </parent>
 
     <properties>
-        <docker.image.prefix>springimage</docker.image.prefix>
+        <docker.image.prefix>mohamedramadan7</docker.image.prefix>
         <java.version>1.8</java.version>
     </properties>
 
@@ -34,7 +34,7 @@
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.9</version>
                 <configuration>
-                     <imageName>springimage</imageName>
+                     <imageName>mohamedramadan7/springdockermodel</imageName>
                         <!--<repository>${docker.image.prefix}/${project.artifactId}</repository> -->
                     <repository>mohamedramadan7/springdockermodel</repository>
                 </configuration>

@@ -11,7 +11,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello Docker World Spyre & Mo Awesome app but with models";
+        return "XHello Docker World Spyre & Mo Awesome app but with models";
     }
 
     public static void main(String[] args) {
