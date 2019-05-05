@@ -29,10 +29,10 @@ import repo.RepoCars;
 @ComponentScan(basePackages = {"controllers"})
 @EnableJpaRepositories(basePackages={"repo"})
 
-@PropertySources({
-    @PropertySource(value = "classpath:application.properties")
+// @PropertySources({
+//     @PropertySource(value = "classpath:application.properties")
   
-})
+// })
 public class Application  {
 
     @RequestMapping("/")
