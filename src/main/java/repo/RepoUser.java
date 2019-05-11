@@ -10,4 +10,5 @@ import model.User;
 public interface RepoUser extends CrudRepository<User, Integer>{
 
 	public User findByUsernameAndPassword(String username, String password);
+	public User findByToken(String token);
 }
