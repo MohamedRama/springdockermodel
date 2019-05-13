@@ -102,10 +102,16 @@ public class Application implements CommandLineRunner {
 
 		Sale sale1 = new Sale();
 		sale1.setCar(car1);
-		sale1.setTitle("My Sale");
+		sale1.setTitle(sale1.getCar().getBrand() + " for Sale");
 		sale1.setUser(user2);
 		repoSale.save(sale1);
-
+		
+		Sale sale2 = new Sale();
+		sale2.setCar(car2);
+		sale2.setTitle(sale2.getCar().getBrand() + " for sale");
+		sale2.setUser(user);
+		repoSale.save(sale2);
+		
 		return "okay";
 	}
 
